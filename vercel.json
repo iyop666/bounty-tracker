@@ -1,5 +1,10 @@
 {
   "buildCommand": "next build",
   "framework": "nextjs",
-  "installCommand": "npm install --legacy-peer-deps"
+  "installCommand": "npm install --legacy-peer-deps",
+  "functions": {
+    "src/app/page.tsx": {
+      "runtime": "nodejs20.x"
+    }
+  }
 }
